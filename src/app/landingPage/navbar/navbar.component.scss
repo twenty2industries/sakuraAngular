@@ -1,0 +1,43 @@
+nav {
+  font-family: 'Raleway';
+  padding: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  > img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+  > div {
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    > a {
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: rgb(227, 227, 227);
+}
+
+.phone_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 0.8rem;
+  border: solid 1.5px rgb(227, 227, 227);
+  background-color: rgb(128, 0, 0);
+  width: 15rem;
+  height: 4rem;
+  >img{
+    height: 2.6rem;
+  }
+}

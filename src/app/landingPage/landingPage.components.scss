@@ -6,12 +6,16 @@ h2{
   font-size: 3.2rem;
 }
 
+div{
+  width: 100%;
+  height: 40rem;
+}
+
 section{
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100vh;
   width: 100%;
   background-image: url('./../../assets/img/1_hero/JPG/hero_bg.jpg');
