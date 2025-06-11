@@ -6,7 +6,12 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-landingPage',
   standalone: true,
   imports: [CommonModule],
-  template: '<h1>Hallo Welt</h1>',
-  styles: ['h1 {color: red;}']
+  template: `
+  <section>
+    <h1>SAKURA RAMEN</h1>
+    <h2>BEST RAMEN IN TOWN</h2>
+  </section>
+  `,
+  styleUrls: ['./landingPage.components.scss']
 })
 export class LandingPageComponent {}
