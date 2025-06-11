@@ -5,7 +5,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 
 @Component({
-  selector: 'app-landingPage',
+  selector: 'app-landing-page',
   standalone: true,
   imports: [CommonModule, NavbarComponent],
   template: `
