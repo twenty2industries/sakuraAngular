@@ -8,7 +8,7 @@ import { RouterOutlet } from '@angular/router';
   imports: [CommonModule],
   template: `
   <section>
-    <h1>SAKURA RAMEN</h1>
+    <h1 class="fontRaleway">SAKURA RAMEN</h1>
     <h2>BEST RAMEN IN TOWN</h2>
   </section>
   `,
