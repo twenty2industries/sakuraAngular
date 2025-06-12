@@ -1,0 +1,34 @@
+section{
+  margin: 12rem 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 8rem;
+  color: #9f0908;
+}
+
+div{
+  margin: 0rem 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  >span{
+    width: 30rem;
+      font-size: 5.6rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+        >img{
+    width: 12.8rem;
+    height: 12.8rem;
+  }
+  }
+
+}
